@@ -159,6 +159,17 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
+
+        colors {
+                background #000000
+                statusline #ffffff
+                separator #666666
+
+                focused_workspace  #ffffff #000000 #ffffff
+                active_workspace   #333333 #5f676a #ffffff
+                inactive_workspace #000000 #000000 #888888
+                urgent_workspace   #2f343a #900000 #ffffff
+        }
 }
 
 bindsym $mod+x exec i3lock
