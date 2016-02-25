@@ -176,4 +176,5 @@ bindsym $mod+x exec i3lock
 
 # exec_always feh --bg-scale /home/kamran/Pictures/Star-Wars-Wallpaper.jpg
 
+exec dropbox start
 exec pcmanfm
