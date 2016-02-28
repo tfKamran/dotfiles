@@ -123,6 +123,7 @@ assign [class="Pcmanfm"] $workspace2
 assign [class="Gnome-terminal"] $workspace3
 assign [class="jetbrains-studio"] $workspace4
 assign [class="Sublime_text"] $workspace5
+assign [class="Subl"] $workspace5
 assign [class="Skype"] $workspace10
 
 # reload the configuration file
