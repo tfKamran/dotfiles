@@ -204,3 +204,4 @@ bindsym XF86AudioPrev exec playerctl previous
 exec pcmanfm
 exec dropbox start
 exec skype
+exec hipchat
