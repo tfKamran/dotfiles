@@ -117,3 +117,5 @@ if [ -f ~/.sdb/.sdb-completion.bash ]; then
  source ~/.sdb/.sdb-completion.bash
 fi
 source /home/kamran/tizen-sdk/tools/ide/bin/tizen-autocomplete
+
+alias restartADB='adb kill-server && sudo /home/kamran/android-sdk-linux/platform-tools/adb devices'
