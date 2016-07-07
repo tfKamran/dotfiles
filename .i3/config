@@ -193,6 +193,7 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightne
 # Touchpad controls
 exec xinput set-prop "SynPS/2 Synaptics TouchPad" "Synaptics Tap Action" 0, 0, 0, 0, 1, 3, 2
 exec xinput set-prop "SynPS/2 Synaptics TouchPad" "Synaptics Tap Time" 150
+exec xinput set-prop "SynPS/2 Synaptics TouchPad" "Synaptics Two-Finger Scrolling" 1, 1
 
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play
