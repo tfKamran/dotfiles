@@ -118,8 +118,8 @@ if [ -f ~/.sdb/.sdb-completion.bash ]; then
 fi
 source /home/kamran/tizen-sdk/tools/ide/bin/tizen-autocomplete
 
-alias makeAdditionalMonitorLeft='xrandr --output VGA-0 --auto --left-of eDP1'
-alias makeAdditionalMonitorRight='xrandr --output VGA-0 --auto --right-of eDP1'
+alias makeAdditionalMonitorLeft='xrandr --output VGA-0 --auto --left-of eDP'
+alias makeAdditionalMonitorRight='xrandr --output VGA-0 --auto --right-of eDP'
 alias disableAdditionalMonitor='xrandr --output VGA-0 --off'
 
 alias restartADB='adb kill-server && sudo /home/kamran/android-sdk-linux/platform-tools/adb devices'
