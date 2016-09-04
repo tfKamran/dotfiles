@@ -196,10 +196,10 @@ exec xinput set-prop "SynPS/2 Synaptics TouchPad" "Synaptics Tap Time" 150
 exec xinput set-prop "SynPS/2 Synaptics TouchPad" "Synaptics Two-Finger Scrolling" 1, 1
 
 # Media player controls
-bindsym XF86AudioPlay exec playerctl play
-bindsym XF86AudioPause exec playerctl pause
-bindsym XF86AudioNext exec playerctl next
-bindsym XF86AudioPrev exec playerctl previous
+bindsym XF86AudioPlay exec clementine --play-pause
+bindsym XF86AudioPause exec clementine --pause
+bindsym XF86AudioNext exec clementine --next
+bindsym XF86AudioPrev exec clementine --previous
 
 # exec_always feh --bg-scale /home/kamran/Pictures/Star-Wars-Wallpaper.jpg
 
