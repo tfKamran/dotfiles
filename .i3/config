@@ -179,7 +179,7 @@ bar {
         }
 }
 
-bindsym $mod+x exec i3lock
+bindsym $mod+x exec i3lock --color "#000000"
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5%
